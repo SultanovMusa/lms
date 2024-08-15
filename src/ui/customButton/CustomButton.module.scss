@@ -1,0 +1,103 @@
+// ! PLUS BUTTON
+.PlusButton {
+	text-transform: capitalize !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 8px !important;
+	background: #3772ff !important;
+	border-radius: 8px !important;
+	padding: 14px 24px !important;
+
+	&:hover {
+		background: #1d60ff !important;
+	}
+
+	&:disabled {
+		background: #e3e3e4 !important;
+		color: #989799 !important;
+	}
+}
+
+// ! DELETE BUTTON
+.DeleteButton {
+	background: #f70d1a !important;
+	padding: 10px 24px !important;
+	border-radius: 8px !important;
+	width: 108px !important;
+
+	&:hover {
+		background: #b62727 !important;
+	}
+
+	&:disabled {
+		background: #e3e3e4 !important;
+		color: #989799 !important;
+	}
+
+	text-transform: capitalize !important;
+}
+
+// ! CIRCLE BUTTON
+.CircleButton {
+	background: #fa2b56 !important;
+	border-radius: 100% !important;
+	padding: 35px !important;
+	width: 58px !important;
+	height: 58px !important;
+
+	.PlusIcon {
+		width: 41px !important;
+		height: 41px !important;
+	}
+
+	&:hover {
+		background: #ee0a2c 100% !important;
+	}
+
+	&:disabled {
+		background: #e3e3e4 !important;
+
+		img {
+			filter: drop-shadow(#c6c6c7);
+		}
+	}
+	text-transform: capitalize !important;
+}
+
+// ! SAVE BUTTON
+.SaveButton {
+	background: #3772ff !important;
+	border-radius: 8px !important;
+	padding: 10px 78px !important;
+
+	&:hover {
+		background: #1d60ff !important;
+	}
+
+	&:disabled {
+		background: #e3e3e4 !important;
+		color: #989799 !important;
+	}
+	text-transform: capitalize !important;
+}
+
+// ! CANCEL BUTTON
+.CancelButton {
+	padding: 10px 14px !important;
+	background: #ffffff !important;
+	border: 1.5px solid #3772ff !important;
+	color: #3772ff !important;
+	border-radius: 8px !important;
+
+	&:hover {
+		border: 1.5px solid #1d60ff !important;
+		color: #1d60ff !important;
+	}
+
+	&:disabled {
+		background: #ffffff !important;
+		border: 1px solid #e4e4e4 !important;
+		color: #a9a8aa !important;
+	}
+	text-transform: capitalize !important;
+}

@@ -1,0 +1,118 @@
+.main_modal_vid {
+	width: 27% !important;
+	height: 70% !important;
+	border-radius: 8px !important;
+	overflow-y: scroll !important;
+	scrollbar-width: thin;
+	scrollbar-color: #c1c1c1 #f1f1f1;
+	border: none !important;
+	outline: none !important;
+}
+@media (max-width: 1300px) {
+	.main_modal_vid {
+		width: 37% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 1100px) {
+	.main_modal_vid {
+		width: 47% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 850px) {
+	.main_modal_vid {
+		width: 57% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 695px) {
+	.main_modal_vid {
+		width: 65% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 610px) {
+	.main_modal_vid {
+		width: 65% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 510px) {
+	.main_modal_vid {
+		width: 70% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 440px) {
+	.main_modal_vid {
+		width: 75% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 400px) {
+	.main_modal_vid {
+		width: 80% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 360px) {
+	.main_modal_vid {
+		width: 90% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 320px) {
+	.main_modal_vid {
+		width: 95% !important;
+		transition: 0.4s !important;
+	}
+}
+.main_modal_vid .header_modal {
+	border-bottom: 1px solid gray;
+	height: 50px;
+}
+.main_modal_vid .header_modal h1 {
+	color: #707070;
+	font-weight: 600;
+	font-size: 20px;
+	padding-inline: 20px;
+}
+.main_modal_vid .notifications {
+	margin-top: 25px;
+}
+.main_modal_vid .notifications h2 {
+	padding-inline: 20px;
+	color: #707070;
+	font-weight: 600;
+	font-size: 18px;
+}
+.main_modal_vid .notifications .messages_content h1 {
+	font-weight: 600;
+	font-size: 25px;
+	padding-top: 25px;
+}
+.main_modal_vid .notifications .messages_content .results {
+	display: flex;
+	padding-inline: 20px;
+	flex-direction: column;
+	gap: 7px;
+	background: #e0e5f6;
+}
+.main_modal_vid .notifications .messages_content .results2 {
+	display: flex;
+	padding-inline: 20px;
+	flex-direction: column;
+	gap: 7px;
+}
+.main_modal_vid .notifications_div {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	max-height: 500px;
+	justify-content: center;
+}
+.main_modal_vid .img_notifications {
+	width: 100%;
+	max-width: 250px;
+}

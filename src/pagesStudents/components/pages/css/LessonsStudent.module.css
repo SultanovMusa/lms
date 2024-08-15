@@ -1,0 +1,23 @@
+.lesson {
+	padding-top: 20px;
+	padding-inline: 20px;
+	width: 100%;
+}
+.lesson h1 {
+	margin-bottom: 24px;
+	width: 100%;
+}
+.lesson .container {
+	background: #fff;
+	width: 100%;
+}
+.lesson .container .content .tab {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+}
+.lesson :global .MuiTabs-flexContainer {
+	display: flex;
+	gap: 25px;
+}

@@ -1,0 +1,129 @@
+.test_container {
+	padding-inline: 20px;
+	width: 100%;
+	padding-top: 20px;
+
+	.container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		@media (max-width: 800px) {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			gap: 20px;
+		}
+
+		.test_container_second {
+			display: flex;
+			flex-direction: column;
+			height: 80px;
+			border-radius: 6px;
+			border: 1px solid #d4d4d4;
+			background: #dde9f9;
+			padding-inline: 15px;
+			padding-block: 15px;
+			cursor: pointer;
+
+			.test_container_fifth {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.test_cont {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+				}
+
+				.button {
+					border: none;
+					background: none;
+					cursor: pointer;
+				}
+			}
+
+			.test_container_third {
+				display: flex;
+				flex-direction: column;
+				gap: 7px;
+
+				.test_text {
+					p {
+						font-weight: 600;
+						font-size: 17px;
+						color: blue;
+						width: 100%;
+						max-width: 250px;
+						text-overflow: ellipsis;
+						overflow: hidden;
+						white-space: nowrap;
+						color: #020202;
+					}
+				}
+			}
+			.test_container_forth {
+				display: flex;
+
+				.text_time {
+					color: #898989;
+					padding-left: 20px;
+				}
+			}
+			.test_buttons_container {
+				display: flex;
+				width: 100%;
+				justify-content: flex-end;
+				padding-top: 15px;
+			}
+		}
+	}
+
+	.empty_page {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		margin-top: 100px;
+
+		img {
+			width: 100%;
+			max-width: 500px;
+			border-radius: 5px;
+		}
+	}
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+	border-radius: 8px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	padding-inline: 20px;
+
+	.button {
+		display: flex;
+		gap: 10px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 8px;
+		text-transform: capitalize;
+		.icon {
+			width: 25px;
+			height: 25px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		span {
+			white-space: nowrap;
+		}
+		@media (max-width: 700px) {
+			span {
+				display: none;
+			}
+		}
+	}
+}

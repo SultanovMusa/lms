@@ -1,0 +1,251 @@
+.student {
+	padding-top: 20px;
+	.container {
+		padding-inline: 20px;
+		min-height: 89vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.content_table {
+			.search_input_buttons {
+				margin-bottom: 20px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 10px;
+				width: 100%;
+
+				position: sticky;
+				z-index: 50;
+				top: 68px;
+				background: #eff0f4;
+				.search_input {
+					position: relative;
+					display: flex;
+					align-items: center;
+					width: 100%;
+					background: #fff;
+					border-radius: 12px;
+
+					input {
+						width: 100%;
+						@media screen and (min-width: 1000px) and (max-width: 1200px) {
+							max-width: 540px;
+						}
+						@media screen and (min-width: 1200px) and (max-width: 1310px) {
+							max-width: 200px !important;
+							display: flex;
+							flex-wrap: nowrap;
+							overflow: auto;
+						}
+					}
+
+					.input_buttons {
+						position: absolute;
+						top: 50%;
+						right: 10px;
+						transform: translateY(-50%);
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						.button {
+							padding: 5px;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							border: none;
+							outline: none;
+							background: transparent;
+							border-radius: 4px;
+							cursor: pointer;
+							transition: 0.2s;
+							&:hover {
+								background: #dcdcdc;
+							}
+						}
+					}
+				}
+			}
+			.buttons {
+				display: flex;
+				gap: 10px;
+				justify-content: center;
+				align-items: center;
+				@media (max-width: 700px) {
+					gap: 0;
+				}
+				.button {
+					display: flex;
+					gap: 10px;
+					justify-content: center;
+					align-items: center;
+					border-radius: 8px;
+					text-transform: capitalize;
+					.icon {
+						width: 25px;
+						height: 25px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					span {
+						white-space: nowrap;
+					}
+					@media (max-width: 700px) {
+						span {
+							display: none;
+						}
+					}
+				}
+				:global {
+					.MuiButtonBase-root {
+						max-width: 360px !important;
+						width: 100% !important ;
+						@media (max-width: 700px) {
+							width: 0 !important;
+						}
+					}
+					.MuiButton-outlinedPrimary {
+						max-width: 360px !important;
+						width: 100% !important ;
+						@media (max-width: 700px) {
+							width: 0 !important;
+						}
+					}
+				}
+			}
+			.title {
+				margin-bottom: 20px;
+				width: 100%;
+				font-size: 22px;
+				font-weight: 600;
+			}
+
+			.StudentContainer {
+				border-radius: 8px;
+				table-layout: fixed;
+				width: 100%;
+				background: #fff;
+				border: 1px solid #dbd2d2;
+				transition: all 0.5s ease-in-out;
+
+				@media screen and (min-width: 1170px) and (max-width: 1205px) {
+					width: 100%;
+					max-width: 930px;
+				}
+				@media screen and (min-width: 1100px) and (max-width: 1170px) {
+					width: 100%;
+					max-width: 860px;
+				}
+				@media screen and (min-width: 1070px) and (max-width: 1100px) {
+					width: 100%;
+					max-width: 820px;
+				}
+				@media screen and (min-width: 1000px) and (max-width: 1070px) {
+					width: 100%;
+					max-width: 760px;
+				}
+				.table {
+					border-collapse: collapse;
+					width: 100%;
+					thead {
+						border-bottom: 1px solid #837a7a14;
+						height: 50px;
+						background: #fff;
+						th {
+							font-weight: 600;
+							text-align: start;
+							padding-left: 20px;
+							flex-wrap: nowrap;
+						}
+					}
+					tbody {
+						.TableAlternateRow {
+							background: #837a7a14;
+						}
+
+						.StudentContainerSecond {
+							height: 50px;
+						}
+
+						tr {
+							td {
+								padding-left: 20px;
+							}
+
+							.TableCellIcon {
+								text-align: end;
+
+								button {
+									background: none;
+									border: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.pagination {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			background: #efeff6;
+			padding-block: 20px;
+			padding-inline: 30px;
+			position: sticky;
+			margin-top: auto;
+			bottom: 0;
+			left: 0;
+
+			@media (max-width: 1000px) {
+				padding-bottom: 120px;
+			}
+
+			@media (max-width: 850px) {
+				flex-direction: column;
+			}
+
+			@media (max-width: 625px) {
+				gap: 8px;
+			}
+
+			.inputs {
+				display: flex;
+				gap: 5px;
+				align-items: center;
+
+				input {
+					width: 40px;
+				}
+
+				.text {
+					display: block;
+
+					@media (max-width: 850px) {
+						display: none;
+					}
+				}
+
+				.pagination_element {
+					display: none;
+
+					@media (max-width: 850px) {
+						display: block;
+					}
+				}
+			}
+
+			.stack {
+				@media (max-width: 650px) {
+					flex-direction: column;
+				}
+			}
+		}
+	}
+}
+.changeClass {
+	color: #ff0000;
+}

@@ -1,0 +1,138 @@
+.section_announcement {
+	overflow-y: scroll;
+	padding-inline: 20px;
+	width: 100%;
+
+	h1 {
+		font-size: 22px;
+		font-weight: 600;
+		width: 100%;
+		padding-top: 60px;
+	}
+
+	.announce_card {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 15px;
+
+		@media (max-width: 800px) {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			place-items: center;
+			column-gap: 15px;
+		}
+		.announce_list {
+			width: 100%;
+			max-width: 800px;
+			min-height: 170px;
+			background: #fff;
+			font-size: 20px;
+			box-shadow: 2px 2px 4px #80808066;
+			margin-top: 30px;
+			padding: 15px;
+			border-radius: 15px;
+			overflow-wrap: break-word;
+
+			p {
+				font-size: 16px;
+				font-weight: 400;
+				padding-top: 10px;
+			}
+		}
+	}
+
+	.announcement_owners {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.announcement_owner {
+			display: flex;
+			flex-direction: column;
+			color: blue;
+		}
+	}
+
+	.announc_user {
+		color: #8b8b8b;
+	}
+	.announce_content {
+		color: #8b8b8b;
+	}
+
+	.announce_groups {
+		color: #8b8b8b;
+	}
+	.announce_groupsss {
+		color: blue;
+	}
+
+	.announce_contents {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.announce_groupsss {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pagination {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		background: #efeff6;
+		padding-block: 20px;
+		padding-inline: 30px;
+		margin-top: auto;
+		position: sticky;
+		bottom: 0;
+		left: 0;
+
+		@media (max-width: 1000px) {
+			padding-bottom: 96px;
+		}
+
+		@media (max-width: 850px) {
+			flex-direction: column;
+		}
+
+		@media (max-width: 625px) {
+			gap: 8px;
+		}
+
+		.inputs {
+			display: flex;
+			gap: 5px;
+			align-items: center;
+
+			input {
+				width: 40px;
+			}
+
+			.text {
+				display: block;
+
+				@media (max-width: 850px) {
+					display: none;
+				}
+			}
+
+			.pagination_element {
+				display: none;
+
+				@media (max-width: 850px) {
+					display: block;
+				}
+			}
+		}
+
+		.stack {
+			@media (max-width: 650px) {
+				flex-direction: column;
+			}
+		}
+	}
+}

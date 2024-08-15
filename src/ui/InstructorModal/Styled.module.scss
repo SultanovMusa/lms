@@ -1,0 +1,307 @@
+.ModalMain {
+	border-radius: 20px;
+	max-width: 541px;
+	padding: 0px 0px !important;
+	@media (max-width: 600px) {
+		width: 80% !important;
+	}
+	.text {
+		color: #fff;
+		width: 100%;
+		height: 68px;
+		padding: 20px;
+		background: #3772ff;
+		border-top-right-radius: 10px !important;
+		border-top-left-radius: 10px !important;
+		margin-bottom: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.com_text {
+			padding: 20px;
+			text-align: center;
+			padding: 0px;
+		}
+	}
+
+	.textarea {
+		font-size: 15px;
+		color: #87898e;
+		padding-left: 20px;
+	}
+	.input_button_card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 20px;
+		padding: 20px;
+		.input {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			align-items: flex-end;
+		}
+		.select_div {
+			width: 100%;
+			display: flex;
+			gap: 10px;
+			align-items: flex-end;
+			.select {
+				border-radius: 20px;
+			}
+		}
+
+		.button_review {
+			display: flex;
+			gap: 10px;
+			width: 500px;
+			@media (max-width: 600px) {
+				width: 80% !important;
+			}
+
+			.review {
+				display: flex;
+				width: 100%;
+				border: gray;
+				gap: 10px;
+
+				.input {
+					border-radius: 10px;
+					border: 1px solid #cfc9c9;
+					outline: none;
+					&:hover {
+						border: 1px solid #000000 !important;
+					}
+					&:focus {
+						border: 1px solid #0000ff !important;
+					}
+					&:active {
+						border: 1px solid #0000ff !important;
+					}
+
+					&::placeholder {
+						font-size: 15px;
+						padding-inline: 7px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.ModalMain {
+	border-radius: 20px;
+	max-width: 541px;
+	padding: 0px 0px !important;
+	@media (max-width: 600px) {
+		width: 80% !important;
+	}
+	.add_text {
+		color: #fff;
+		width: 100%;
+		height: 68px;
+		padding: 20px;
+		background: #3772ff;
+		border-top-right-radius: 10px !important;
+		border-top-left-radius: 10px !important;
+		margin-bottom: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.com_text {
+			padding: 20px;
+			text-align: center;
+			padding: 0px;
+		}
+	}
+
+	.textarea {
+		font-size: 15px;
+		color: #87898e;
+		padding-left: 20px;
+	}
+	.input_button_card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		padding: 20px;
+		.input {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+	}
+}
+
+.main_modal_vid {
+	width: 52% !important;
+	height: 52% !important;
+	padding: 0px !important;
+	transition: 0.4s !important;
+	border: none !important;
+	outline: none !important;
+	opacity: none !important;
+
+	@media (max-width: 1300px) {
+		width: 65% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 1150px) {
+		width: 80% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 1000px) {
+		width: 85% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 875px) {
+		height: 50% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 840px) {
+		height: 50% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 770px) {
+		width: 85% !important;
+		height: 50% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 720px) {
+		height: 45% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+	@media (max-width: 700px) {
+		width: 85% !important;
+		height: 40% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+	@media (max-width: 590px) {
+		width: 85% !important;
+		height: 30% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 500px) {
+		height: 28% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 490px) {
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 400px) {
+		width: 92% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	@media (max-width: 350px) {
+		width: 92% !important;
+		transition: 0.4s !important;
+		border: none !important;
+	}
+
+	.iframe {
+		@media (max-width: 1300px) {
+			width: 95% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 1150px) {
+			width: 100% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 1000px) {
+			width: 100% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 875px) {
+			height: 100% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 840px) {
+			height: 100% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 770px) {
+			width: 100% !important;
+			height: 50% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 720px) {
+			height: 45% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+		@media (max-width: 700px) {
+			width: 100% !important;
+			height: 40% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+		@media (max-width: 590px) {
+			width: 100% !important;
+			height: 30% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 500px) {
+			height: 28% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 490px) {
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 400px) {
+			width: 92% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+
+		@media (max-width: 350px) {
+			width: 92% !important;
+			transition: 0.4s !important;
+			border: none !important;
+		}
+	}
+}

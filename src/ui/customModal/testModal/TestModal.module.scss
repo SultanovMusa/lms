@@ -1,0 +1,168 @@
+.main_modal {
+	border-radius: 20px;
+	max-width: 541px;
+	padding: 0 0 !important;
+	opacity: none !important;
+	outline: none !important;
+
+	@media (max-width: 600px) {
+		width: 80% !important;
+	}
+	.text {
+		width: 100%;
+		height: 68px;
+		padding: 20px;
+		background: #3772ff;
+		color: #fff;
+		border-top-right-radius: 10px !important;
+		border-top-left-radius: 10px !important;
+		margin-bottom: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.comText {
+			padding: 20px;
+			text-align: center;
+		}
+	}
+
+	.textarea {
+		font-size: 15px;
+		color: #87898e;
+		padding-left: 20px;
+	}
+	.input_button_card {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		scrollbar-width: thin;
+		padding: 20px;
+		height: 550px;
+		overflow-y: auto;
+
+		.select {
+			border-radius: 12px !important;
+			width: 100% !important;
+		}
+		.input {
+			max-width: 470px;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+
+			.outlined_input_eyes {
+				width: 100%;
+				border-radius: 12px;
+			}
+
+			.EditButtons {
+				display: flex;
+				justify-content: flex-end;
+				gap: 10px;
+				margin-top: 15px;
+			}
+		}
+
+		.select_div {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.containInput {
+			display: flex;
+			gap: 10px;
+			width: 500px;
+			@media (max-width: 600px) {
+				width: 80% !important;
+			}
+		}
+	}
+}
+
+.Main_div {
+	width: 100%;
+
+	.material_get_test {
+		padding-bottom: 30px;
+	}
+	.head_container {
+		width: 100%;
+		height: 102px;
+		background-color: white;
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+
+	.get_test_name_test {
+		display: flex;
+		padding-bottom: 20px;
+		flex-direction: column;
+		padding-block: 20px;
+		gap: 10px;
+		background: #fff;
+		border-radius: 10px;
+		margin-bottom: 16px;
+		padding-inline: 10px;
+
+		.get_test_name {
+			color: #1f6ed4;
+		}
+
+		.get_test_times_container {
+			display: flex;
+			gap: 20px;
+			align-items: center;
+			text-align: center;
+
+			.get_test_time {
+				color: #8d949e;
+			}
+		}
+	}
+
+	.testing_container {
+		padding-top: 20px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		border-radius: 10px;
+		padding-left: 10px;
+
+		.question {
+			height: auto;
+			padding-bottom: 15px;
+
+			.get_test_testing_second_container {
+				display: flex;
+			}
+
+			.option {
+				padding-bottom: 15px;
+				display: flex;
+				gap: 10px;
+
+				input {
+					width: 18px;
+				}
+			}
+		}
+	}
+
+	.getTest_hr {
+		width: 100%;
+		background: #c4c4c4;
+		margin-bottom: 20px;
+	}
+
+	.getTest_button {
+		display: flex;
+		justify-content: flex-end;
+		padding-inline: 15px;
+		padding-block: 20px;
+	}
+}

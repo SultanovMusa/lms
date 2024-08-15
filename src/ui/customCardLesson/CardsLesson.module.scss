@@ -1,0 +1,121 @@
+.CardsLesson {
+	position: relative;
+	.container {
+		width: 560px;
+		height: 310px;
+		margin: 0 auto;
+		border: 1px solid #bfc4ce;
+		border-radius: 8px;
+
+		.top_content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 1px solid #bfc4ce;
+
+			.pen {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				gap: 15px;
+				padding: 26px 20px;
+
+				.pen_img {
+					padding: 5px;
+					background: rgb(239, 240, 244);
+					border-radius: 5px;
+				}
+
+				.text_lesson {
+					font-size: 16px;
+					text-transform: uppercase;
+				}
+			}
+
+			.arrow_del {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-right: 25px;
+				// padding-top: 18px;
+
+				.add_arrow {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					border: 1px solid #ebebeb;
+					border-radius: 8px;
+					padding: 13px 10px 13px 24px;
+					margin-right: 28px;
+				}
+				.add_text {
+					color: #000000;
+					font-weight: bolder;
+					font-size: 14px;
+					margin-right: 10px;
+				}
+			}
+		}
+
+		.bottom_content {
+			.screen_content {
+				display: flex;
+				justify-content: start;
+				align-items: center;
+				gap: 24px;
+				margin-bottom: 18px;
+				padding-left: 20px;
+				position: relative;
+				padding-top: 5px;
+
+				&:hover {
+					background-color: rgb(239, 240, 244);
+					padding: 10px;
+				}
+				.text_screen {
+					font-size: 16px;
+					font-weight: 700;
+					color: #000000;
+				}
+
+				.btn_screen1 {
+					display: none;
+					position: absolute;
+					top: 3;
+					right: 190px;
+					background-color: #d4d4d4;
+					padding: 8px;
+					border: none;
+					border-radius: 8px;
+
+					.pen_edit_del {
+						color: #000000;
+						padding-left: 5px;
+					}
+				}
+				.btn_screen2 {
+					display: none;
+					align-items: center;
+					position: absolute;
+					top: 3;
+					right: 10px;
+					padding: 6px;
+					border: none;
+					border-radius: 8px;
+
+					.pen_edit_del {
+						color: #000000;
+						padding-left: 5px;
+					}
+				}
+
+				&:hover .btn_screen1 {
+					display: block;
+				}
+				&:hover .btn_screen2 {
+					display: block;
+				}
+			}
+		}
+	}
+}

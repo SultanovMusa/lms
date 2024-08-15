@@ -1,0 +1,157 @@
+.link {
+	padding-inline: 20px;
+	width: 100%;
+
+	.buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+		@media (max-width: 700px) {
+			gap: 0;
+		}
+		.button {
+			display: flex;
+			gap: 10px;
+			justify-content: center;
+			align-items: center;
+			border-radius: 8px;
+			text-transform: capitalize;
+			.icon {
+				width: 25px;
+				height: 25px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			span {
+				white-space: nowrap;
+			}
+			@media (max-width: 700px) {
+				span {
+					display: none;
+				}
+			}
+		}
+		:global {
+			.MuiButtonBase-root {
+				max-width: 360px !important;
+				width: 100% !important ;
+				@media (max-width: 700px) {
+					width: 0 !important;
+				}
+			}
+			.MuiButton-outlinedPrimary {
+				max-width: 360px !important;
+				width: 100% !important ;
+				@media (max-width: 700px) {
+					width: 0 !important;
+				}
+			}
+		}
+	}
+
+	.card {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		flex-wrap: wrap;
+		background: #fff;
+		border-radius: 8px;
+		gap: 10px;
+		padding-top: 15px;
+		cursor: pointer;
+
+		@media (max-width: 750px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
+
+		.cards {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 70px;
+			background: #dde9f9;
+			border: 1px solid #d4d4d4;
+			border-radius: 8px;
+			font-weight: bold;
+			font-size: 16px;
+			padding-inline: 15px;
+			margin-top: 5px;
+
+			img {
+				width: 100%;
+				max-width: 350px;
+				height: 100%;
+				max-height: 220px;
+				border-radius: 10px;
+				transition: 0.3s;
+			}
+		}
+
+		.title {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.text {
+				width: 100%;
+				max-width: 200px;
+				text-overflow: ellipsis;
+				overflow: hidden;
+
+				p {
+					font-weight: 600;
+					font-size: 17px;
+					color: blue;
+					width: 100%;
+					max-width: 250px;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					white-space: nowrap;
+
+					a {
+						font-weight: 600;
+						font-size: 17px;
+						color: blue;
+						width: 100%;
+						max-width: 250px;
+						text-overflow: ellipsis;
+						overflow: hidden;
+						white-space: nowrap;
+					}
+				}
+			}
+
+			.dots {
+				display: flex;
+				margin-top: auto;
+				justify-content: flex-end;
+				align-items: center;
+
+				.button {
+					border: none;
+					background: none;
+					cursor: pointer;
+					align-items: center;
+				}
+			}
+		}
+	}
+
+	.empty_page {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		margin-top: 100px;
+
+		img {
+			width: 100%;
+			max-width: 500px;
+			border-radius: 5px;
+		}
+	}
+}

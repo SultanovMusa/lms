@@ -1,0 +1,45 @@
+.all_header {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background: #eff0f4;
+	.courses_admin {
+		display: flex;
+		align-items: center;
+		height: 68.5px;
+		justify-content: flex-end;
+		border-bottom: 1px solid #d0d0d0;
+		padding-inline: 20px;
+		gap: 10px;
+		cursor: pointer;
+
+		p {
+			font-size: 18px;
+			font-weight: 400;
+		}
+
+		.bell {
+			img {
+				display: flex;
+				align-items: center;
+				width: 26px;
+			}
+		}
+
+		img {
+			display: flex;
+			align-items: center;
+		}
+
+		.icon {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	.profile {
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+	}
+}

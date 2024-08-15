@@ -1,0 +1,56 @@
+.get_task {
+	width: 100%;
+	margin-top: 25px;
+
+	h1 {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.Task {
+		background: #fff;
+		border-radius: 10px;
+		padding-inline: 20px;
+		.card {
+			img {
+				width: 100%;
+				max-width: 600px;
+				height: auto;
+			}
+			p {
+				font-size: 18px;
+			}
+			.text {
+				width: 100%;
+				display: flex;
+				justify-content: space-between !important;
+				align-items: center;
+
+				@media (max-width: 490px) {
+					flex-wrap: wrap;
+				}
+			}
+
+			.result_task {
+				margin-top: 10px;
+
+				.inner_html {
+					display: flex;
+					flex-direction: column;
+					margin-top: 10px;
+					h2 {
+						padding: 10px;
+					}
+					p {
+						width: 800px;
+					}
+				}
+			}
+		}
+
+		.box {
+			display: flex;
+			flex-direction: column;
+			margin-top: 100px;
+		}
+	}
+}

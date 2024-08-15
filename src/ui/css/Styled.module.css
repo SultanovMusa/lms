@@ -1,0 +1,309 @@
+.ModalMain {
+	border-radius: 20px;
+	max-width: 541px;
+	padding: 0px 0px !important;
+}
+@media (max-width: 600px) {
+	.ModalMain {
+		width: 80% !important;
+	}
+}
+.ModalMain .text {
+	color: #fff;
+	width: 100%;
+	height: 68px;
+	padding: 20px;
+	background: #3772ff;
+	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px !important;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ModalMain .text .com_text {
+	padding: 20px;
+	text-align: center;
+	padding: 0px;
+}
+.ModalMain .textarea {
+	font-size: 15px;
+	color: #87898e;
+	padding-left: 20px;
+}
+.ModalMain .input_button_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 20px;
+	padding: 20px;
+}
+.ModalMain .input_button_card .input {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: flex-end;
+}
+.ModalMain .input_button_card .select_div {
+	width: 100%;
+	display: flex;
+	gap: 10px;
+	align-items: flex-end;
+}
+.ModalMain .input_button_card .select_div .select {
+	border-radius: 20px;
+}
+.ModalMain .input_button_card .button_review {
+	display: flex;
+	gap: 10px;
+	width: 500px;
+}
+@media (max-width: 600px) {
+	.ModalMain .input_button_card .button_review {
+		width: 80% !important;
+	}
+}
+.ModalMain .input_button_card .button_review .review {
+	display: flex;
+	width: 100%;
+	border: gray;
+	gap: 10px;
+}
+.ModalMain .input_button_card .button_review .review .input {
+	border-radius: 10px;
+	border: 1px solid #cfc9c9;
+	outline: none;
+}
+.ModalMain .input_button_card .button_review .review .input:hover {
+	border: 1px solid #000 !important;
+}
+.ModalMain .input_button_card .button_review .review .input:focus {
+	border: 1px solid blue !important;
+}
+.ModalMain .input_button_card .button_review .review .input:active {
+	border: 1px solid blue !important;
+}
+.ModalMain .input_button_card .button_review .review .input::-moz-placeholder {
+	font-size: 15px;
+	padding-inline: 7px;
+}
+.ModalMain .input_button_card .button_review .review .input::placeholder {
+	font-size: 15px;
+	padding-inline: 7px;
+}
+.ModalMain {
+	border-radius: 20px;
+	max-width: 541px;
+	padding: 0px 0px !important;
+}
+@media (max-width: 600px) {
+	.ModalMain {
+		width: 80% !important;
+	}
+}
+.ModalMain .add_text {
+	color: #fff;
+	width: 100%;
+	height: 68px;
+	padding: 20px;
+	background: #3772ff;
+	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px !important;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ModalMain .add_text .com_text {
+	padding: 20px;
+	text-align: center;
+	padding: 0px;
+}
+.ModalMain .textarea {
+	font-size: 15px;
+	color: #87898e;
+	padding-left: 20px;
+}
+.ModalMain .input_button_card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 20px;
+}
+.ModalMain .input_button_card .input {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.main_modal_vid {
+	width: 52% !important;
+	height: 52% !important;
+	padding: 0px !important;
+	transition: 0.4s !important;
+	border: none !important;
+}
+@media (max-width: 1300px) {
+	.main_modal_vid {
+		width: 65% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 1150px) {
+	.main_modal_vid {
+		width: 80% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 1000px) {
+	.main_modal_vid {
+		width: 85% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 875px) {
+	.main_modal_vid {
+		height: 50% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 840px) {
+	.main_modal_vid {
+		height: 50% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 770px) {
+	.main_modal_vid {
+		width: 85% !important;
+		height: 50% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 720px) {
+	.main_modal_vid {
+		height: 45% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 700px) {
+	.main_modal_vid {
+		width: 85% !important;
+		height: 40% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 590px) {
+	.main_modal_vid {
+		width: 85% !important;
+		height: 30% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 500px) {
+	.main_modal_vid {
+		height: 28% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 490px) {
+	.main_modal_vid {
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 400px) {
+	.main_modal_vid {
+		width: 92% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 350px) {
+	.main_modal_vid {
+		width: 92% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 1300px) {
+	.main_modal_vid .iframe {
+		width: 95% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 1150px) {
+	.main_modal_vid .iframe {
+		width: 100% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 1000px) {
+	.main_modal_vid .iframe {
+		width: 100% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 875px) {
+	.main_modal_vid .iframe {
+		height: 100% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 840px) {
+	.main_modal_vid .iframe {
+		height: 100% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 770px) {
+	.main_modal_vid .iframe {
+		width: 100% !important;
+		height: 50% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 720px) {
+	.main_modal_vid .iframe {
+		height: 45% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 700px) {
+	.main_modal_vid .iframe {
+		width: 100% !important;
+		height: 40% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 590px) {
+	.main_modal_vid .iframe {
+		width: 100% !important;
+		height: 30% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 500px) {
+	.main_modal_vid .iframe {
+		height: 28% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 490px) {
+	.main_modal_vid .iframe {
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 400px) {
+	.main_modal_vid .iframe {
+		width: 92% !important;
+		transition: 0.4s !important;
+	}
+}
+@media (max-width: 350px) {
+	.main_modal_vid .iframe {
+		width: 92% !important;
+		transition: 0.4s !important;
+	}
+}

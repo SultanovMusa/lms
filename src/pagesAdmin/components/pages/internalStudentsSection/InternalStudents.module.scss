@@ -1,0 +1,139 @@
+.internal_student {
+	padding-top: 80px;
+	.container {
+		padding-inline: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 80vh;
+		.content_table {
+			.title {
+				margin-bottom: 20px;
+				width: 100%;
+				position: sticky;
+				z-index: 50;
+				font-size: 22px;
+				font-weight: 600;
+				top: 60px;
+				background: #eff0f4;
+			}
+
+			.internal_container {
+				border-radius: 8px;
+				table-layout: fixed;
+				width: 100%;
+				background: #fff;
+				border: 1px solid #dbd2d2;
+				transition: all 0.5s;
+
+				@media screen and (min-width: 1170px) and (max-width: 1205px) {
+					width: 100%;
+					max-width: 930px;
+				}
+				@media screen and (min-width: 1100px) and (max-width: 1170px) {
+					width: 100%;
+					max-width: 860px;
+				}
+				@media screen and (min-width: 1070px) and (max-width: 1100px) {
+					width: 100%;
+					max-width: 820px;
+				}
+				@media screen and (min-width: 1000px) and (max-width: 1070px) {
+					width: 100%;
+					max-width: 760px;
+				}
+				.table {
+					border-collapse: collapse;
+					width: 100%;
+					thead {
+						border-bottom: 1px solid #837a7a14;
+						height: 50px;
+						background: #fff;
+						th {
+							font-weight: 600;
+							text-align: start;
+							padding-left: 20px;
+							flex-wrap: nowrap;
+						}
+					}
+					tbody {
+						.table_alternate_row {
+							background: #837a7a14;
+							height: 33px;
+						}
+
+						.internal {
+							height: 50px;
+						}
+
+						tr {
+							td {
+								padding-left: 20px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.pagination {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			background: #efeff6;
+			padding-block: 20px;
+			padding-inline: 30px;
+			margin-top: auto;
+			position: sticky;
+			bottom: 0;
+			left: 0;
+
+			@media (max-width: 1000px) {
+				padding-bottom: 96px;
+			}
+
+			@media (max-width: 850px) {
+				flex-direction: column;
+			}
+
+			@media (max-width: 625px) {
+				gap: 8px;
+			}
+
+			.inputs {
+				display: flex;
+				gap: 5px;
+				align-items: center;
+
+				input {
+					width: 40px;
+				}
+
+				.text {
+					display: block;
+
+					@media (max-width: 850px) {
+						display: none;
+					}
+				}
+
+				.pagination_element {
+					display: none;
+
+					@media (max-width: 850px) {
+						display: block;
+					}
+				}
+			}
+
+			.stack {
+				@media (max-width: 650px) {
+					flex-direction: column;
+				}
+			}
+		}
+	}
+}
+.changeClass {
+	color: #ff0000;
+}

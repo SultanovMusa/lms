@@ -1,0 +1,116 @@
+.answer {
+	padding-inline: 20px;
+	width: 100%;
+
+	h1 {
+		position: sticky;
+		z-index: 50;
+		top: 62px;
+		background: #eff0f4;
+		padding: 10px;
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.main_task {
+		margin-top: 20px;
+		background: #fff;
+		border-radius: 10px;
+		padding-inline: 20px;
+		height: 100vh;
+		overflow-y: scroll;
+
+		.student_task {
+			padding-top: 20px;
+			h2 {
+				padding-top: 30px;
+				font-weight: 600;
+				font-size: 22px;
+			}
+
+			.text_task {
+				.task_sms {
+					padding-top: 10px;
+				}
+			}
+		}
+
+		.score {
+			font-size: 18px;
+		}
+		.mainProfile {
+			margin-top: 20px;
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+
+			.profile {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				gap: 8px;
+				width: 50%;
+				margin-left: 580px;
+			}
+			// .auth {
+			// 	width: 50%;
+			// }
+			.grade_comment {
+				padding-top: 5px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+				// height: 80px;
+
+				.content {
+					width: 100%;
+					max-width: 600px;
+					background: #e8eff9;
+					padding-block: 20px;
+					border-radius: 10px;
+					padding-inline: 15px;
+				}
+			}
+		}
+		.comments {
+			margin-top: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 44px;
+
+			.comment_part {
+				display: flex;
+				justify-content: flex-end;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 12px;
+				margin-bottom: 30px;
+				.comment_div {
+					display: flex;
+					align-items: center;
+					input {
+						width: 100%;
+						max-width: 200px;
+						height: 43px;
+						border-right: none;
+						border-top-left-radius: 7px;
+						border-bottom-left-radius: 7px;
+						border: 1px solid #eee8e8;
+						outline: none;
+						padding: 10px 18px;
+						&::placeholder {
+							font-size: 16px;
+							font-weight: 400;
+						}
+					}
+				}
+			}
+		}
+		.editButton {
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 20px;
+		}
+	}
+}

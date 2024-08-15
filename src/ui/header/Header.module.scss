@@ -1,0 +1,143 @@
+.SaidBar {
+	position: sticky;
+
+	top: 0;
+	left: 0;
+	height: 100vh !important;
+	min-height: 100vh !important;
+	max-width: 100vh !important;
+	width: 80px;
+	background: #fff;
+	padding: 0.4rem 0.8rem;
+	transition: all 0.5s ease;
+	z-index: 999;
+
+	&.active {
+		width: 240px;
+	}
+
+	#btn {
+		position: absolute;
+		color: #12171e;
+		top: 0.4rem;
+		left: 50%;
+		font-size: 1.2rem;
+		line-height: 50px;
+		transform: translateX(-50%);
+		cursor: pointer;
+	}
+	&.active #btn {
+		left: 90%;
+	}
+
+	.top {
+		.logo {
+			color: #fff;
+			display: flex;
+			height: 50px;
+			width: 100%;
+			align-items: center;
+			pointer-events: none;
+			opacity: 0;
+
+			&:active {
+				opacity: 1;
+			}
+			i {
+				font-size: 2rem;
+				margin-right: 5px;
+			}
+		}
+	}
+	ul {
+		.peaksoft_img {
+			height: 80px;
+			cursor: pointer;
+
+			.peaksoft1_url {
+				padding-inline: 12px;
+				&.active {
+					display: none;
+				}
+			}
+			.peaksoft2_url {
+				width: 100%;
+				max-width: 80px;
+				opacity: 1;
+
+				&.active {
+					opacity: 0;
+				}
+			}
+		}
+		li {
+			font-weight: 600;
+			font-size: 16px;
+			position: relative;
+			list-style-type: none;
+			height: 50px;
+			width: 90%;
+			margin: 0.8rem auto;
+			line-height: 50px;
+			.nav_item {
+				overflow: hidden;
+				position: relative;
+				color: #12171e;
+				display: flex;
+				align-items: center;
+				text-decoration: none;
+				border-radius: 0.8rem;
+				transition: all 0.2s ease;
+				&:hover {
+					background: #dde9f9;
+					color: #1f6ed4;
+					z-index: 999999 !important;
+				}
+				&.active {
+					background: #dde9f9;
+					color: #1f6ed4;
+					z-index: 999999 !important;
+				}
+
+				.icon {
+					position: absolute;
+					left: 12px;
+					top: 50%;
+					transform: translateY(-50%);
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					z-index: 99999999 !important;
+				}
+
+				.label {
+					margin-left: 45px;
+					transition: 0.2s;
+					&.active {
+						opacity: 0;
+					}
+				}
+			}
+			.tooltip {
+				font-weight: 600;
+				position: absolute;
+				left: 60px;
+				top: 50%;
+				transform: translateY(-50%);
+				box-shadow: 0 0.5rem 0.8rem #00000033;
+				border-radius: 0.6rem;
+				padding: 0.4rem 1.2rem;
+				line-height: 1.8rem;
+				z-index: 99999999 !important;
+				opacity: 0;
+				color: #12171e;
+			}
+			&:hover .tooltip {
+				background: #dde9f9;
+				color: #1f6ed4;
+				opacity: 1;
+				z-index: 99999999 !important;
+			}
+		}
+	}
+}

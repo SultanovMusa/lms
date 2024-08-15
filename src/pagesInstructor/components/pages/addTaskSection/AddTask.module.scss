@@ -1,0 +1,183 @@
+.addTask {
+	padding-inline: 20px;
+	padding-top: 60px;
+	h1 {
+		padding-bottom: 24px;
+	}
+	.container {
+		margin-bottom: 20px;
+		width: 100%;
+		background: #fff;
+		padding-inline: 20px;
+		padding-top: 20px;
+		padding: 10px;
+		border-radius: 10px;
+
+		.main_task {
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+
+			.save_file {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+			}
+			button {
+				display: flex;
+				gap: 20px;
+				align-items: center;
+			}
+
+			.input_part {
+				display: flex;
+				align-items: flex-end;
+				height: 66px;
+				gap: 30px;
+
+				.bold {
+					font-weight: bold;
+				}
+			}
+
+			.second_part {
+				padding-top: 40px;
+				.second {
+					position: relative;
+				}
+				.button {
+					margin-top: 20px;
+					padding-inline: 20px;
+				}
+
+				.editor {
+					.editorInput {
+						width: 100%;
+						border: none !important;
+						display: flex;
+						flex-direction: column;
+						border-top: none;
+					}
+
+					p {
+						width: 100% !important;
+						max-width: 1200px !important;
+					}
+
+					img {
+						width: 100% !important;
+						max-width: 900px !important;
+						height: auto !important;
+					}
+				}
+				.second_icon {
+					height: 60px;
+					display: flex;
+					align-items: flex-end;
+					padding-left: 43px;
+					gap: 28px;
+
+					button {
+						background: none;
+						border: none;
+						cursor: pointer;
+					}
+				}
+
+				.text_input {
+					display: flex;
+					align-items: center;
+					gap: 10px;
+					padding-block: 10px;
+				}
+			}
+		}
+	}
+	.calendar {
+		background: #fff;
+		border-radius: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 60px;
+		padding-inline: 20px;
+		padding: 10px;
+		@media (max-width: 760px) {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+		}
+
+		.dataInput {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+
+			input {
+				padding-block: 14px;
+				padding-inline: 5px;
+			}
+		}
+	}
+}
+
+// :global {
+// 	.quill {
+// display: flex !important;
+// width: 100% !important;
+// justify-content: space-between !important;
+// flex-direction: row-reverse !important;
+
+// .ql-container {
+// 	width: 100% !important;
+// 	max-width: 900px !important;
+// 	border-radius: 14px !important;
+
+// 	.ql-editor {
+// 		border: 1px solid #b8acac !important;
+// 		border-radius: 14px !important;
+// 		width: 100% !important;
+// 		max-width: 1200px !important;
+// 	}
+// }
+// .ql-toolbar {
+// 	border: none !important;
+// 	width: 100% !important;
+// 	max-width: 920px !important;
+// 	display: flex !important;
+
+// 		// }
+
+// 		// .ql-formats {
+// 		// 	display: flex;
+// 		// }
+
+// 		// .ql-toolbar .ql-bold,
+// 		// .ql-italic,
+// 		// .ql-underline,
+// 		// .ql-strike,
+// 		// .ql-blockquote,
+// 		// .ql-link,
+// 		// .ql-image,
+// 		// .ql-list,
+// 		// .ql-code-block,
+// 		// .ql-indent,
+// 		// .ql-formats {
+// 		// 	display: flex !important;
+// 		// 	gap: 100px !important;
+// 		// width: 35px !important;
+// 		// height: 35px !important;
+// 		// }
+// 	}
+// }
+:global {
+	.ql-editor {
+		height: 100%;
+		min-height: 200px;
+	}
+
+	.ql-blan {
+		height: auto;
+		min-height: 700px;
+	}
+}

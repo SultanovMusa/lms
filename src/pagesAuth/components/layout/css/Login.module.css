@@ -1,0 +1,161 @@
+.Login .content {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.Login .content .LoginLogoBlue {
+	width: 100%;
+	max-width: 800px;
+	height: 100vh;
+	background: #3772ff;
+}
+.Login .content .LoginLogoBlue .Logos {
+	display: flex;
+	gap: 90px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.Login .content .LoginLogoBlue .Logos img {
+	width: 100%;
+	height: auto;
+	max-width: 260px;
+}
+.Login .content .LoginElementsWhite {
+	padding-inline: 20px;
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements .title_red {
+	color: #fa2349;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements .OutlinedInputEyes {
+	width: 540px;
+	border-radius: 12px;
+	width: 100%;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements::-moz-placeholder {
+	color: #6a6a6a;
+	padding: 10px 8px 10px 22px;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements::placeholder {
+	color: #6a6a6a;
+	padding: 10px 8px 10px 22px;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements .Link_Element {
+	text-align: end;
+	margin-left: 10px;
+	padding-inline: 20px;
+	margin-top: 20px;
+	color: #3232ff;
+	cursor: pointer;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements .Button_Element {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+.Login .content .LoginElementsWhite .LoginWhiteElements .Parent_element_inputs {
+	max-width: 540px;
+	padding: 20px;
+	width: 100%;
+}
+.Login
+	.content
+	.LoginElementsWhite
+	.LoginWhiteElements
+	.Parent_element_inputs
+	.Element_inputs_login {
+	margin-top: 54px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+.Login
+	.content
+	.LoginElementsWhite
+	.LoginWhiteElements
+	.Parent_element_inputs
+	.Element_inputs_login
+	p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #6a6a6a;
+}
+.Login
+	.content
+	.LoginElementsWhite
+	.LoginWhiteElements
+	.Parent_element_inputs
+	.Element_inputs_login
+	.InputMedia {
+	max-width: 540px;
+}
+.Login
+	.content
+	.LoginElementsWhite
+	.LoginWhiteElements
+	.Parent_element_inputs
+	.Element_inputs_password {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+.Login
+	.content
+	.LoginElementsWhite
+	.LoginWhiteElements
+	.Parent_element_inputs
+	.Element_inputs_password
+	p {
+	margin-top: 18px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #6a6a6a;
+}
+@media (max-width: 320px) {
+	.Login .content .LoginElementsWhite .LoginWhiteElements h1 {
+		display: flex;
+		padding: 0 10px;
+		width: 100%;
+	}
+}
+@media (max-width: 320px) {
+	.Login .content .LoginElementsWhite .LoginWhiteElements .WelcomeMedia {
+		display: flex;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		top: 40px;
+		font-size: 25px;
+	}
+}
+@media (max-width: 320px) {
+	.Login .content .LoginElementsWhite .LoginWhiteElements .PeakSoftMedia {
+		display: flex;
+		font-size: 29px;
+		gap: 10px;
+		position: relative;
+		top: 41px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media (max-width: 1040px) {
+	.Login .content .LoginLogoBlue {
+		display: none;
+	}
+}

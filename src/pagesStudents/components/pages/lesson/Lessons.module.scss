@@ -1,0 +1,38 @@
+.list_lessons {
+	.container {
+		padding-inline: 20px;
+
+		.card {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			flex-wrap: wrap;
+			background: #fff;
+			border-radius: 8px;
+			gap: 20px;
+			padding-block: 10px;
+			@media (max-width: 750px) {
+				grid-template-columns: repeat(1, 1fr);
+			}
+
+			.cards {
+				display: flex;
+				justify-content: left;
+				align-items: center;
+				width: 100%;
+				height: 70px;
+				background: #dde9f9;
+				border: 1px solid #d4d4d4;
+				border-radius: 8px;
+				font-weight: bold;
+				font-size: 16px;
+				cursor: pointer;
+
+				.name_home_work {
+					text-decoration: none;
+					color: #141414;
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+}

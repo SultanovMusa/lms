@@ -1,0 +1,58 @@
+.Announcement_form {
+	width: 100%;
+	max-width: 581px;
+	padding: 0 0 !important;
+
+	@media (max-width: 700px) {
+		width: 90%;
+	}
+
+	.text {
+		width: 100%;
+		padding: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		font-size: 18px;
+		font-weight: 600;
+		.com_text {
+			padding: 5px;
+			font-size: 20px;
+			font-weight: 600;
+			text-align: center;
+		}
+	}
+
+	.input_form {
+		width: 100%;
+		padding-top: 20px;
+		max-width: 560px;
+		position: relative;
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 10px;
+
+		.input {
+			width: 100%;
+			max-width: 540px;
+			flex-direction: column;
+			gap: 10px;
+			align-items: center;
+			justify-content: center;
+			.inputText {
+				width: 100%;
+				max-width: 540px;
+			}
+		}
+	}
+
+	.select {
+		width: 100%;
+		position: relative;
+		top: 0;
+		right: 20px;
+		margin-left: 15px;
+	}
+}

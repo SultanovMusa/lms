@@ -1,0 +1,143 @@
+.main_modal_vid {
+	width: 27% !important;
+	height: 70% !important;
+	border-radius: 8px !important;
+	overflow-y: scroll !important;
+	scrollbar-width: thin;
+	scrollbar-color: #c1c1c1 #f1f1f1;
+	border: none !important;
+	outline: none !important;
+
+	@media (max-width: 1300px) {
+		width: 37% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 1100px) {
+		width: 47% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 850px) {
+		width: 57% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 695px) {
+		width: 65% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 610px) {
+		width: 65% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 510px) {
+		width: 70% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 440px) {
+		width: 75% !important;
+		transition: 0.4s !important;
+	}
+
+	@media (max-width: 400px) {
+		width: 80% !important;
+		transition: 0.4s !important;
+	}
+	@media (max-width: 360px) {
+		width: 90% !important;
+		transition: 0.4s !important;
+	}
+	@media (max-width: 320px) {
+		width: 95% !important;
+		transition: 0.4s !important;
+	}
+
+	.header_modal {
+		border-bottom: 1px solid gray;
+		height: 50px;
+		padding: 10px;
+
+		h1 {
+			color: #707070;
+			font-weight: 600;
+			font-size: 20px;
+			padding-inline: 20px;
+		}
+	}
+
+	.notifications {
+		margin-top: 25px;
+
+		h2 {
+			padding-inline: 20px;
+			color: #707070;
+			font-weight: 600;
+			font-size: 18px;
+		}
+
+		.messages_content {
+			display: flex;
+			padding-top: 10px;
+			flex-direction: column;
+
+			gap: 10px;
+			h1 {
+				font-weight: 600;
+				font-size: 20px;
+				padding-top: 25px;
+			}
+
+			.results {
+				display: flex;
+				background: #e0e5f6;
+				padding-inline: 20px;
+				flex-direction: column;
+				gap: 7px;
+			}
+			.results2 {
+				display: flex;
+				padding-inline: 20px;
+				flex-direction: column;
+				gap: 7px;
+			}
+		}
+		.messages_content2 {
+			display: flex;
+			flex-direction: column;
+
+			h1 {
+				font-weight: 600;
+				font-size: 20px;
+				padding-top: 25px;
+			}
+
+			.results {
+				display: flex;
+				padding-inline: 20px;
+				flex-direction: column;
+				gap: 7px;
+			}
+			.results2 {
+				display: flex;
+				padding-inline: 20px;
+				flex-direction: column;
+				gap: 7px;
+			}
+		}
+	}
+	.notifications_div {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		max-height: 500px;
+		justify-content: center;
+	}
+	.img_notifications {
+		width: 100%;
+		max-width: 250px;
+	}
+}

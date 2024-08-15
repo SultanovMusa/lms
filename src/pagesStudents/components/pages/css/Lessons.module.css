@@ -1,0 +1,49 @@
+.list_lessons .container {
+	padding-inline: 20px;
+}
+.list_lessons .container .lesson {
+	display: flex;
+	justify-content: flex-start;
+	gap: 15px;
+	align-items: center;
+}
+.list_lessons .container .title_lesson {
+	margin-bottom: 24px;
+	position: sticky;
+	z-index: 50;
+	top: 80px;
+	background: #eff0f4;
+}
+.list_lessons .container .card {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	flex-wrap: wrap;
+	background: #fff;
+	border-radius: 8px;
+	gap: 20px;
+	padding-inline: 20px;
+	padding-block: 10px;
+}
+@media (max-width: 750px) {
+	.list_lessons .container .card {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.list_lessons .container .card .cards {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background: #dde9f9;
+	border: 1px solid #d4d4d4;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+.list_lessons .container .card .cards .link {
+	text-decoration: none;
+	color: #141414;
+	margin-left: 15px;
+}

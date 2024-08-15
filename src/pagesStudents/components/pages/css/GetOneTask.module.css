@@ -1,0 +1,172 @@
+.get_task {
+	padding-inline: 20px;
+	width: 100%;
+	padding-top: 60px;
+}
+.get_task h1 {
+	margin-bottom: 20px;
+	width: 100%;
+}
+.get_task .Task {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	height: 100vh;
+	min-height: 100vh;
+	max-height: 100vh;
+	background: #fff;
+	border-radius: 10px;
+	overflow-y: scroll !important;
+}
+.get_task .Task .comment {
+	padding-inline: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin-top: 40px;
+}
+.get_task .Task .comment .student_comment {
+	border: 1px solid #d0d1d6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	padding-inline: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.get_task .Task .comment .student_comment .data {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+	font-size: 13px;
+	color: #8d949e;
+}
+.get_task .Task .comment .comments_container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 20px;
+}
+.get_task .Task .comment .comments_container .admin_teacher {
+	display: flex;
+	gap: 30px;
+	justify-content: flex-end;
+	margin-right: 60px;
+}
+.get_task .Task .comment .comments_container .admin_teacher .teacher {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-start;
+}
+.get_task .Task .comment .comments_container .admin_teacher .correct_hw {
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	background: #e8eff9;
+	padding-inline: 10px;
+	margin-left: 40px;
+}
+.get_task .Task .comment .comments_container .admin_teacher .correct_hw span {
+	padding-inline: 10px;
+}
+.get_task .Task .comment .comments_container .student .user {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.get_task .Task .comment .comments_container .student .correct_hw {
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #e8eff9;
+	padding-inline: 10px;
+	margin-left: 40px;
+	width: 100%;
+	max-width: 500px;
+}
+.get_task .Task .comment .comments_container .student .correct_hw .data {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+	font-size: 13px;
+	color: #8d949e;
+}
+.get_task .Task .comment .getHw {
+	background: #ff9f0a;
+	color: #fff;
+	display: flex;
+	border-radius: 10px;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 20px;
+	height: 70px;
+	padding: 10px;
+	gap: 9px;
+	margin-top: 100px;
+}
+.get_task .Task .comment .getHw button {
+	font-weight: 600;
+	font-size: 16px;
+}
+.get_task .Task .comment .getHw .data {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+	font-size: 13px;
+	color: #8d949e;
+}
+.get_task .Task .comment .notGetHw {
+	background: #36ac0c;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	padding-inline: 20px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.get_task .Task .comment .notGetHw .data {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+	font-size: 13px;
+}
+.get_task .Task .card {
+	padding-inline: 20px;
+}
+.get_task .Task .card .task_teacher {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.get_task .Task .card img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+.get_task .Task .card p {
+	font-size: 18px;
+}
+.get_task .Task .card .text {
+	margin-top: 30px;
+	padding: 10px;
+}
+@media (max-width: 490px) {
+	.get_task .Task .card .text {
+		flex-wrap: wrap;
+	}
+}
+.get_task .Task .card .inner_html {
+	padding-inline: 10px;
+	font-size: 16px;
+	border-bottom: 1px solid #d0d0d0;
+	padding-bottom: 25px;
+}
+.get_task .Task .card .inner_html p {
+	font-size: 16px;
+}
+.your_task {
+	margin-bottom: 40px;
+}

@@ -1,0 +1,80 @@
+.main_modal {
+	border-radius: 20px;
+	max-width: 541px;
+	padding: 0 0 !important;
+	background: #fff;
+}
+@media (max-width: 600px) {
+	.main_modal {
+		width: 80% !important;
+	}
+}
+.main_modal .text {
+	width: 100%;
+	height: 68px;
+	padding: 20px;
+	background: #3772ff;
+	color: #fff;
+	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px !important;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main_modal .text .comText {
+	padding: 20px;
+	text-align: center;
+}
+.main_modal .textarea {
+	font-size: 15px;
+	color: #87898e;
+	padding-left: 20px;
+}
+.main_modal .input_button_card {
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	gap: 15px;
+}
+.main_modal .input_button_card .select {
+	border-radius: 12px !important;
+	width: 100% !important;
+}
+.main_modal .input_button_card .input {
+	max-width: 470px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.main_modal .input_button_card .input .outlined_input_eyes {
+	width: 100%;
+	border-radius: 12px;
+}
+.main_modal .input_button_card .input .EditButtons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-top: 15px;
+}
+.main_modal .input_button_card .select_div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.main_modal .input_button_card .containInput {
+	display: flex;
+	gap: 10px;
+	width: 500px;
+}
+@media (max-width: 600px) {
+	.main_modal .input_button_card .containInput {
+		width: 80% !important;
+	}
+}

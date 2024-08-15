@@ -1,0 +1,60 @@
+.Announcement_form {
+	width: 100%;
+	max-width: 581px;
+	padding: 0 0 !important;
+
+	@media (max-width: 700px) {
+		width: 90%;
+	}
+
+	.text {
+		bottom: 33px;
+		right: 33px;
+		color: #fff;
+		width: 100%;
+		height: 68px;
+		padding: 20px;
+		background: #3772ff;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 20px;
+		.com_text {
+			padding: 20px;
+			text-align: center;
+		}
+	}
+
+	.input_form {
+		width: 100%;
+		padding-top: 20px;
+		max-width: 560px;
+		position: relative;
+		bottom: 20px;
+		right: 20px;
+		margin-left: 20px;
+		padding-inline: 20px;
+		.input {
+			width: 100%;
+			max-width: 540px;
+			flex-direction: column;
+			gap: 10px;
+			align-items: center;
+			justify-content: center;
+			.inputText {
+				width: 100%;
+				max-width: 540px;
+			}
+		}
+	}
+
+	.select {
+		width: 100%;
+		position: relative;
+		top: 0;
+		right: 20px;
+		margin-left: 15px;
+	}
+}

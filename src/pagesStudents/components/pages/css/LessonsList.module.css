@@ -1,0 +1,124 @@
+.list_lessons {
+	padding-top: 20px;
+}
+.list_lessons .container {
+	padding-inline: 20px;
+}
+.list_lessons .container .lesson {
+	display: flex;
+	justify-content: flex-start;
+	gap: 15px;
+	align-items: center;
+}
+.list_lessons .container .title_lesson {
+	margin-bottom: 24px;
+	position: sticky;
+	z-index: 50;
+	top: 80px;
+	background: #eff0f4;
+}
+.list_lessons .container .card {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	flex-wrap: wrap;
+	background: #fff;
+	border-radius: 8px;
+	gap: 20px;
+	padding-inline: 20px;
+	padding-block: 20px;
+}
+@media (max-width: 750px) {
+	.list_lessons .container .card {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.list_lessons .container .card .cards {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background: #dde9f9;
+	border: 1px solid #d4d4d4;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+.list_lessons .container .card .cards .link {
+	text-decoration: none;
+}
+.list_lessons .container .card .cards .link .card_item p {
+	color: #141414;
+	margin-left: 15px;
+}
+.list_lessons .container .pagination {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background: #efeff6;
+	padding-block: 20px;
+	padding-inline: 30px;
+	margin-top: auto;
+	position: sticky;
+	bottom: 0;
+	left: 0;
+}
+@media (max-width: 1000px) {
+	.list_lessons .container .pagination {
+		padding-bottom: 80px;
+	}
+}
+@media (max-width: 850px) {
+	.list_lessons .container .pagination {
+		flex-direction: column;
+	}
+}
+@media (max-width: 625px) {
+	.list_lessons .container .pagination {
+		gap: 8px;
+	}
+}
+.list_lessons .container .pagination .Inputs {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+.list_lessons .container .pagination .Inputs input {
+	width: 40px;
+}
+.list_lessons .container .pagination .Inputs .text {
+	display: block;
+}
+@media (max-width: 850px) {
+	.list_lessons .container .pagination .Inputs .text {
+		display: none;
+	}
+}
+.list_lessons .container .pagination .Inputs .pagination_element {
+	display: none;
+}
+@media (max-width: 850px) {
+	.list_lessons .container .pagination .Inputs .pagination_element {
+		display: block;
+	}
+}
+@media (max-width: 650px) {
+	.list_lessons .container .pagination .stack {
+		flex-direction: column;
+	}
+}
+.list_lessons .container .empty_page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-top: 150px;
+}
+.list_lessons .container .empty_page img {
+	width: 100%;
+	max-width: 500px;
+	border-radius: 5px;
+}

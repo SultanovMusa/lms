@@ -1,0 +1,69 @@
+.subHeaderCourses {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.header {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #d0d0d0;
+	position: sticky;
+	top: 0;
+	z-index: 50;
+	background: #eff0f4;
+}
+.header .header_elements {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-block: 30px;
+	padding-inline: 30px;
+	gap: 10px;
+}
+.header .header_elements .profile {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.header .header_elements .instructor_elements {
+	font-size: 18px;
+	font-weight: 500;
+}
+.header .header_elements .instructor_profile {
+	font-size: 18px;
+	font-weight: 500;
+}
+.subHeaderCourses2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #d0d0d0;
+	position: sticky;
+	top: 0;
+	z-index: 50;
+	background: #eff0f4;
+}
+.header .header_elements {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-block: 30px;
+	padding-inline: 30px;
+	gap: 10px;
+}
+@media (max-width: 600px) {
+	.header .header_elements .profile_text {
+		display: none;
+	}
+}
+.header .header_elements .profile {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}

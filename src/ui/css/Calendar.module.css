@@ -1,0 +1,53 @@
+.calendarWrapper {
+	margin-top: 10px;
+	padding-inline: 10px;
+}
+.calendarWrapper :global .fc .fc-button {
+	background-color: blue;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0);
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+	transition:
+		color 0.15s ease-in-out,
+		background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out,
+		box-shadow 0.15s ease-in-out;
+}
+.calendarWrapper :global .fc .fc-button:hover {
+	background: #3c3c8e;
+	border-color: blue;
+}
+.calendarWrapper :global .fc .fc-button:focus {
+	box-shadow: 0 0 0 0.2re #fff;
+}
+.calendarWrapper :global .fc .fc-button-active {
+	background: #004085;
+	border-color: #002752;
+}
+.calendarWrapper :global .fc .fc-today-button {
+	background: blue;
+	color: #fff;
+}
+.calendarWrapper :global .fc .fc-today-button:hover {
+	background: #0056b3;
+}
+.calendarWrapper :global .fc .fc-prev-button,
+.calendarWrapper :global .fc .fc-next-button {
+	background: #28a745;
+	color: #fff;
+}
+.calendarWrapper :global .fc .fc-prev-button:hover,
+.calendarWrapper :global .fc .fc-next-button:hover {
+	background: green;
+}
+@media (max-width: 365px) {
+	.calendarWrapper :global .fc .fc-prev-button,
+	.calendarWrapper :global .fc .fc-next-button {
+		width: 100%;
+		position: relative;
+		right: 15px;
+	}
+}

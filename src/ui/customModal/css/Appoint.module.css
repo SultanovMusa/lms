@@ -1,0 +1,96 @@
+.MainModal {
+	border-radius: 20px;
+	width: 100%;
+	max-width: 600px !important;
+	padding: 0px 0px !important;
+	background: #fff;
+	height: auto;
+	min-height: 400px;
+}
+@media (max-width: 600px) {
+	.MainModal {
+		width: 90% !important;
+	}
+}
+.MainModal .text {
+	color: #fff;
+	width: 100%;
+	max-width: 600px;
+	height: 70px;
+	padding: 20px;
+	background: #3772ff;
+	border-top-right-radius: 10px !important;
+	border-top-left-radius: 10px !important;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MainModal .select_div1 {
+	padding-right: 25px;
+	background: none;
+}
+.MainModal .select {
+	width: 100% !important;
+	border-radius: 10px !important;
+	padding-inline: 20px !important;
+}
+@media (max-width: 600px) {
+	.MainModal .select {
+		width: 90% !important;
+	}
+}
+.MainModal .select_div {
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 10px;
+	padding-left: 16px;
+	border: 1px solid #b6b3b3;
+	border-radius: 14px;
+}
+.MainModal .buttons {
+	width: 100%;
+	gap: 10px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	padding-bottom: 10px;
+	padding-inline: 20px;
+}
+.MainModal .teachers {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+.MainModal .teachers .teacher {
+	padding: 4px 4px 4px 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 250px;
+	border: 1px solid #d4d4d4;
+	border-radius: 10px;
+	align-items: center;
+}
+.MainModal .teachers .teacher .selected {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #020202;
+}
+.MainModal .teachers button {
+	background: none;
+	color: gray;
+	font-size: 20px;
+	padding-right: 20px;
+	outline: none;
+	border: none;
+}

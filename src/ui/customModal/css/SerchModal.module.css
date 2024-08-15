@@ -1,0 +1,58 @@
+.Announcement_form {
+	width: 100%;
+	max-width: 581px;
+	padding: 0 0 !important;
+}
+@media (max-width: 700px) {
+	.Announcement_form {
+		width: 90%;
+	}
+}
+.Announcement_form .text {
+	bottom: 33px;
+	right: 33px;
+	width: 100%;
+	height: 68px;
+	padding: 20px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.Announcement_form .text .com_text {
+	padding: 20px;
+	text-align: center;
+}
+.Announcement_form .input_form {
+	width: 100%;
+	padding-top: 20px;
+	max-width: 560px;
+	position: relative;
+	bottom: 20px;
+	right: 20px;
+	margin-left: 20px;
+	padding-inline: 20px;
+}
+.Announcement_form .input_form .input {
+	width: 100%;
+	max-width: 540px;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.Announcement_form .input_form .input .inputText {
+	width: 100%;
+	max-width: 540px;
+}
+.Announcement_form .select {
+	width: 100%;
+	position: relative;
+	top: 0;
+	right: 20px;
+	margin-left: 15px;
+}

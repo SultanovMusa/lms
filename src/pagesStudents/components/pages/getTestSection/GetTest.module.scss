@@ -1,0 +1,66 @@
+.Main_div {
+	padding-inline: 20px;
+	padding-top: 30px;
+
+	.get_test_name_test {
+		display: flex;
+		padding-bottom: 20px;
+		justify-content: space-between;
+
+		position: sticky;
+		z-index: 50;
+		top: 80px;
+		background: #eff0f4;
+
+		.get_test_time {
+			color: #0000ff;
+		}
+	}
+
+	.testing_container {
+		padding-top: 20px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		background: #fff;
+		border: 1px solid #d4d4d4;
+		border-radius: 10px;
+		padding-left: 10px;
+		overflow-y: scroll;
+		max-height: 78vh;
+		min-height: 78vh;
+		height: 100%;
+
+		.question {
+			padding-top: 50px;
+			height: auto;
+			padding-bottom: 5px;
+
+			.get_test_testing_second_container {
+				display: flex;
+				padding-bottom: 18px;
+			}
+
+			.option {
+				padding-bottom: 15px;
+
+				input {
+					margin-right: 10px;
+				}
+			}
+			.getTest_hr {
+				width: 99%;
+				padding-inline: 20px;
+				background: #c4c4c4;
+			}
+		}
+
+		.getTest_button {
+			display: flex;
+			margin-top: auto;
+			justify-content: flex-end;
+			padding-inline: 15px;
+			padding-block: 20px;
+		}
+	}
+}

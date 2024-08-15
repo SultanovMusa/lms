@@ -1,0 +1,14 @@
+.Layout {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	.addButton {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 40px;
+		padding-top: 24px;
+	}
+}

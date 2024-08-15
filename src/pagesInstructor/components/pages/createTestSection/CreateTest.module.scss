@@ -1,0 +1,132 @@
+.test {
+	padding-inline: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	.name_of_the_test {
+		padding-top: 20px;
+		padding-inline: 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		background: #fff;
+		border-radius: 10px;
+		h2 {
+			color: rgb(31, 110, 212);
+			font-size: 18px;
+			font-weight: 600;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			.input_time {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				padding-bottom: 20px;
+				gap: 20px;
+			}
+		}
+	}
+
+	.div_component2 {
+		.input_contain2 {
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			background: #fff;
+			border-radius: 20px;
+			gap: 20px;
+			.input_text {
+				display: flex;
+				gap: 20px;
+				align-items: center;
+			}
+
+			.radio_input {
+				display: flex;
+				gap: 10px;
+				align-items: center;
+				width: 100%;
+				justify-content: flex-end;
+
+				input {
+					width: 17px;
+				}
+				span {
+					@media (max-width: 1365px) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	.div_text2 {
+		.components {
+			.input_div {
+				display: flex;
+				align-items: center;
+				gap: 20px;
+				.radio_checkbox {
+					padding-top: 20px;
+					input {
+						width: 17px;
+						height: 30px;
+					}
+				}
+
+				.variant_inputs {
+					display: flex;
+					width: 100%;
+					align-items: center;
+					padding-top: 20px;
+				}
+
+				.notice {
+					position: relative;
+
+					.button_cancel {
+						position: absolute;
+						top: 50%;
+						right: 10px;
+						transform: translateY(-50%);
+						border: none;
+						outline: none;
+						background: transparent;
+						border-radius: 4px;
+						cursor: pointer;
+						transition: 0.2s;
+						&:hover {
+							background: #dcdcdc;
+						}
+
+						span {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+
+			.p_text2 {
+				display: flex;
+				justify-content: space-between;
+				padding-top: 20px;
+				padding-inline: 30px;
+			}
+		}
+	}
+
+	.button_contain {
+		display: flex;
+		justify-content: flex-end;
+		gap: 20px;
+	}
+	.button_circle {
+		display: flex;
+		justify-content: flex-end;
+		gap: 20px;
+	}
+}

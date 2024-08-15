@@ -1,0 +1,72 @@
+.test_container {
+	gap: 20px;
+	padding-inline: 20px;
+	width: 100%;
+	padding-top: 20px;
+
+	.container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		@media (max-width: 800px) {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			gap: 20px;
+		}
+		.test_container_second {
+			display: flex;
+			flex-direction: column;
+			height: 140px;
+			min-height: 140px;
+			max-height: 140px;
+			border-radius: 6px;
+			border: 1px solid #d4d4d4;
+			background: #dde9f9;
+			padding-inline: 15px;
+			padding-block: 15px;
+			.test_container_fifth {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+			}
+
+			.test_container_third {
+				display: flex;
+				gap: 20px;
+
+				.test_text {
+					color: #020202;
+				}
+			}
+			.test_container_forth {
+				display: flex;
+
+				.text_time {
+					color: #898989;
+					padding-left: 27px;
+				}
+			}
+			.test_buttons_container {
+				display: flex;
+				width: 100%;
+				justify-content: flex-end;
+
+				button {
+					font-size: 16px;
+					font-weight: 600;
+					padding: 8px;
+					text-align: center;
+					border-radius: 6px;
+					text-transform: capitalize;
+					@media (max-width: '1200px') {
+						width: 100%;
+					}
+				}
+				@media (max-width: '1200px') {
+					width: 100%;
+					padding-top: 15px;
+				}
+			}
+		}
+	}
+}

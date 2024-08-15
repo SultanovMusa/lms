@@ -1,0 +1,119 @@
+.Task {
+	width: 100%;
+	padding-inline: 20px;
+}
+.Task .course_button_modal {
+	margin-bottom: 20px;
+	margin-top: 14px;
+	display: grid;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	padding-inline: 15px;
+}
+.Task .course_button_modal .button {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	text-transform: capitalize;
+}
+.Task .course_button_modal .button .icon {
+	width: 25px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Task .course_button_modal .button span {
+	white-space: nowrap;
+}
+@media (max-width: 700px) {
+	.Task .course_button_modal .button span {
+		display: none;
+	}
+}
+.Task .card_lesson {
+	overflow-y: scroll;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	flex-wrap: wrap;
+	background-color: #fff;
+	border-radius: 8px;
+	gap: 20px;
+	padding-block: 10px;
+}
+@media (max-width: 750px) {
+	.Task .card_lesson {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.Task .card_lesson .card_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background-color: #dde9f9;
+	border: 1px solid #d4d4d4;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	padding-inline: 15px;
+}
+.Task .card_lesson .card_container .card_link {
+	text-decoration: none;
+	width: 80%;
+}
+.Task .card_lesson .card_container .card_link .card_item {
+	color: #141414;
+	margin-left: 15px;
+}
+.Task .card_lesson .card_container .button button {
+	background: none;
+	border: none;
+}
+.Task .table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.Task .table thead {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid rgba(58, 55, 55, 0.0784313725);
+}
+.Task .table thead th {
+	font-size: 16px;
+	font-weight: 600;
+	text-align: start;
+	padding-left: 20px;
+}
+.Task .table thead .last_th {
+	text-align: end;
+	padding-right: 50px;
+}
+.Task .table thead .date {
+	text-align: end;
+	padding-right: 68px;
+}
+.Task .table .TableCellIcon {
+	text-align: end;
+	padding-right: 35px;
+	cursor: pointer;
+}
+.Task .table .TableCellIcon button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.content {
+	padding-inline: 20px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.content .tab {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+}
